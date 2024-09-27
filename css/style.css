@@ -33,7 +33,7 @@ header{
 /*section2*/
 
 .section2-logo{
-    height: 400Px;
+    /* height: 400Px; */
 }
 .section2-logo .logo-icon {
     width: 50%;
@@ -48,21 +48,30 @@ header{
     text-align: right;
 }
 
+.mv{
+    height: auto;
+    /* background-color: black; */
+}
+
 
 /*home*/
 .logo-home{
     width: 70%;
-    height: px;
+    height: auto;
     margin: 0 auto;
-    /*background-color: blue;*/
+    /* background-color: blue; */
 }
 .logo-home .ul-home{
-    height: 50%;
+    /* height: 50%; */
     width: 70%;
     margin: 0 auto;
-    /*background-color: blueviolet;*/
-    height: 180Px;
+    /* background-color: blueviolet; */
+    height: 180px;
+    color: #9c6a53;
     
+}
+.ul-home :hover{
+    color: #e0320f;
 }
 
 .ul-home{
@@ -82,15 +91,22 @@ header{
     width: 70%;
     height: 150px;
     text-align: center;
-    /*background-color: brown;*/
+    /* background-color: brown; */
     margin: 0 auto;
     
 
 }
 
-.section3 h1{
-    font-size: 200%;
+.section3-1 h1{
+    font-size: 1.5rem;
+    /* background-color: yellow; */
+    /* color: red; */
     
+}
+
+.section3 p{
+    /* color: blue; */
+    /* background-color: palevioletred; */
 }
 
 /*section456*/
